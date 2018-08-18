@@ -57,7 +57,5 @@ public class _00_ArrayCheatSheet {
 		int last = randomnumbers[0];
 		System.out.println(randomnumbers.length);
 		System.out.println(randomnumbers.length-1);
-			
 		}
 	}
-
