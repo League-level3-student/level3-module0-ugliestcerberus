@@ -56,6 +56,6 @@ public class _00_ArrayCheatSheet {
 		// 12. print only the last element in the array
 		int last = randomnumbers[0];
 		System.out.println(randomnumbers.length);
-		System.out.println(randomnumbers.length-1);
-		}
+		System.out.println(randomnumbers.length - 1);
 	}
+}
