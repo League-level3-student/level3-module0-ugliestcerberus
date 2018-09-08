@@ -22,18 +22,23 @@ public class _00_ArrayCheatSheet {
 		for (int i = 0; i < 4; i++) {
 			man[i] = "something";
 		}
+		//if we don't know exactly what are the values of anything, we use a variable. 
+		
 		// 6. use a for loop to print all the values in the array
 		// BE SURE TO USE THE ARRAY'S length VARIABLE
 		for (int i = 0; i < 4; i++) {
 			System.out.println(man[i]);
 		}
+		
 		// 7. make an array of 50 integers
 		int[] randomnumbers = new int[50];
+		
 		// 8. use a for loop to make every value of the integer array a random number
 		for (int y = 0; y < 50; y++) {
 			int r = new Random().nextInt(500);
 			randomnumbers[y] = r;
 		}
+		
 		// 9. without printing the entire array, print only the smallest number on the
 		// array
 		int smallest = randomnumbers[0];
@@ -43,8 +48,10 @@ public class _00_ArrayCheatSheet {
 			}
 			System.out.println(smallest);
 		}
+		
 		// 10 print the entire array to see if step 8 was correct
 		System.out.println(randomnumbers);
+		
 		// 11. print the largest number in the array.
 		int largest = randomnumbers[0];
 		for (int b = 0; b < 10; b++) {
